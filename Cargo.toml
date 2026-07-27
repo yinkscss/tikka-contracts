@@ -10,6 +10,7 @@ default-members = ["contracts/*"]
 
 [workspace.dependencies]
 soroban-sdk = "23"
+ed25519-dalek = "=2.1.1"
 
 [profile.release]
 opt-level = "z"

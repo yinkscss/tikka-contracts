@@ -21,7 +21,7 @@ raffle-shared = { path = "../raffle-shared" }
 [dev-dependencies]
 soroban-sdk = { workspace = true, features = ["testutils"] }
 proptest = "1"
-ed25519-dalek = "=2.1.1"
+ed25519-dalek = { workspace = true }
 raffle-instance = { path = "../raffle-instance" }
 
 # Optimize WASM size
